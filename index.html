@@ -114,6 +114,41 @@
       background:  rgba(254, 254, 254, 0.75);
     }
 
+    /* Header */
+    .site-header {
+      background-color: transparent; /* allow hero image behind */
+      box-shadow: none;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .site-header .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: calc(var(--spacing-unit) * 2) 0;
+    }
+
+    .site-header .logo {
+      font-weight: 600;
+      font-size: 1.25rem;
+    }
+
+    .site-header nav ul {
+      display: flex;
+      gap: calc(var(--spacing-unit) * 3);
+    }
+
+    .site-header nav li {
+      list-style: none;
+    }
+
+    .site-header nav a {
+      font-weight: 500;
+      color: var(--on-surface);
+    }
+
     /* Section Styling */
     header.hero {
       /* remove margins so it spans full width */
@@ -260,6 +295,18 @@
 </head>
 
 <body>
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">Logo</div>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
   <!-- Hero Section -->
   <header class="hero">
     <h1>Modern Tech<br>
@@ -386,6 +433,14 @@
         <li>You’ve outgrown spreadsheets, emails, and gut instincts</li>
         <li>You want help from someone who respects what you've built — not a 25-year-old SaaS bro with buzzwords</li>
       </ul>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing">
+    <div class="container">
+      <h2>Pricing</h2>
+      <p>Contact us for a customized quote tailored to your organization.</p>
     </div>
   </section>
 
