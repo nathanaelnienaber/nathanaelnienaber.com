@@ -130,6 +130,7 @@
       align-items: center;
       justify-content: space-between;
       padding: calc(var(--spacing-unit) * 2) 0;
+      position: relative;
     }
 
     .site-header .logo {
@@ -137,18 +138,45 @@
       font-size: 1.25rem;
     }
 
+    .site-header nav {
+      display: none;
+      position: absolute;
+      right: 0;
+      top: 100%;
+      background-color: var(--surface);
+      box-shadow: var(--elevation-1);
+      border-radius: var(--border-radius);
+      padding: calc(var(--spacing-unit) * 2);
+    }
+
+    .site-header nav.open {
+      display: block;
+    }
+
     .site-header nav ul {
-      display: flex;
-      gap: calc(var(--spacing-unit) * 3);
+      display: block;
     }
 
     .site-header nav li {
       list-style: none;
+      margin-bottom: var(--spacing-unit);
+    }
+
+    .site-header nav li:last-child {
+      margin-bottom: 0;
     }
 
     .site-header nav a {
       font-weight: 500;
       color: var(--on-surface);
+    }
+
+    .menu-toggle {
+      background: none;
+      border: none;
+      color: var(--on-surface);
+      font-weight: 500;
+      cursor: pointer;
     }
 
     /* Section Styling */
@@ -301,6 +329,7 @@
   <header class="site-header">
     <div class="container">
       <div class="logo">Logo</div>
+      <button class="menu-toggle" aria-expanded="false">Menu</button>
       <nav>
         <ul>
           <li><a href="#about">About Me</a></li>
@@ -465,6 +494,14 @@
   <footer>
     &copy; 2025 TMRW Consulting Inc. All rights reserved.
   </footer>
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.site-header nav');
+    menuToggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      menuToggle.setAttribute('aria-expanded', open);
+    });
+  </script>
 </body>
 
 </html>
