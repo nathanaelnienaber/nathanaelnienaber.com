@@ -1,24 +1,28 @@
+import { Connect } from "@/components/connect";
+import { Footer } from "@/components/footer";
+import { Header } from "@/components/header";
+import { Hero } from "@/components/hero";
+import { StoryChapter } from "@/components/story-chapter";
+import { ThreeDoors } from "@/components/three-doors";
+import { story } from "@/content/site";
+
 export default function Home() {
   return (
-    <div className="flex min-h-full flex-col bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-50">
-      <main className="mx-auto flex w-full max-w-2xl flex-1 flex-col justify-center px-6 py-24">
-        <p className="text-sm font-medium uppercase tracking-[0.2em] text-zinc-500">
-          Personal site
-        </p>
-        <h1 className="mt-4 text-4xl font-semibold tracking-tight sm:text-5xl">
-          Nathanael Nienaber
-        </h1>
-        <p className="mt-6 max-w-xl text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-          A new site is coming soon. This repository is separate from{" "}
-          <a
-            href="https://attunedholdings.com"
-            className="font-medium text-zinc-900 underline underline-offset-4 dark:text-zinc-100"
-          >
-            Attuned Holdings
-          </a>
-          .
-        </p>
+    <>
+      <Header />
+      <main className="flex-1">
+        <Hero />
+        {story.chapters.map((chapter, index) => (
+          <StoryChapter
+            key={chapter.id}
+            chapter={chapter}
+            variant={index % 2 === 0 ? "white" : "canvas"}
+          />
+        ))}
+        <ThreeDoors />
+        <Connect />
       </main>
-    </div>
+      <Footer />
+    </>
   );
 }
