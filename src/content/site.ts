@@ -18,52 +18,35 @@ export const story = {
       id: "dinner-table",
       title: "The dinner table",
       paragraphs: [
-        "I grew up middle-class. My father owned a small landscaping company, and every night we sat around a table where payroll, customers, equipment breakdowns, and wins were discussed like weather — constant, real, unavoidable.",
-        "That table was my first classroom in entrepreneurship. I learned that owning a business is not a lifestyle brand. It is late invoices and early mornings. It is pride in work done well and the quiet stress of making payroll. Over the years, I worked every role in his operation, from the ground up. I didn't study business from a distance. I lived it.",
+        "I grew up middle-class where my father owned a small landscaping company. The nightly dinner table was my first classroom in entrepreneurship and a place where I learned the difficulties and joys of owning a business firsthand. Over the years, I worked every role within his operation from the ground up.",
       ],
     },
     {
       id: "mission",
       title: "The mission",
       paragraphs: [
-        "Somewhere in those years, the mission became clear: I would become a small business owner — but better and bigger.",
-        "I was the first in my immediate and extended family to graduate college. I left with a business degree and something no classroom could teach: the practical wisdom of watching a real operator navigate real problems. I had the theory. I had the table.",
-      ],
-    },
-    {
-      id: "learning-to-sell",
-      title: "Learning to sell",
-      paragraphs: [
-        "Good advice came early: if you want to own a business, learn how revenue actually gets made.",
-        "So I did. I spent years in medical device sales and manufacturer representation — multi-state territories, quotas, clinical environments, long sales cycles. I learned to listen, to qualify, to close, and to carry a number. I got married. My wife and I pursued our graduate degrees side by side — hers and mine, in parallel, while life kept moving.",
-        "Revenue wasn't a chapter I skipped on the way to something more respectable. It was the foundation.",
+        "My mission became clear to become a small business owner but better and bigger. As the first in my immediate and extended family to graduate college, I armed myself with a Business Degree and the practical wisdom gained from working alongside my father. Following advice to master revenue generation, I honed my skills in medical device sales and manufacturer representation. During this time, I also got married and pursued my Master's degree alongside my wife.",
       ],
     },
     {
       id: "ghostruck",
       title: "Ghostruck",
       paragraphs: [
-        "Early in my MBA, I pivoted hard. A planned service business became Ghostruck — on-demand moving, think Uber for trucks. We raised $3M, expanded nationwide, and for a moment it felt like the mission was happening in real time.",
-        "Then regulatory complexity caught up with velocity. Ghostruck was shut down — not because the market wasn't there, but because scale and compliance don't always arrive on the same schedule. I didn't walk away with a neat success story. I walked away with something more useful: a firsthand education in what breaks when ambition outruns structure.",
+        "Early in my Master's program, I pivoted from a planned service business to a service-tech venture called Ghostruck in the on-demand moving space. Think Uber but for trucks. We successfully raised $3M and expanded nationwide before the company was shut down due to complex regulatory hurdles. That experience taught me valuable lessons about scale and compliance.",
       ],
     },
     {
       id: "reset",
       title: "The reset",
       paragraphs: [
-        "After Ghostruck, I chased other startup ideas. Then life intervened — severe health challenges that forced a different kind of honesty. I needed stability. I needed to be close to home.",
-        "That led me to Boeing — seven minutes from my front door — for five years that reshaped how I think about technology at scale. I served as Chief of Staff to the Chief Data Officer and led cloud efforts behind Autonomy Hub, hosting autonomous research on infrastructure that couldn't afford to fail. I thrived in that environment: high stakes, high complexity, real consequences.",
-        "Until the industry shifted, and layoffs came — fourth round, mine included.",
+        "Following Ghostruck, I explored several other startup concepts. However, severe health challenges required me to stabilize my life and secure a role close to home. This led to five impactful years at Boeing. Situated just seven minutes from my front door, I served as Chief of Staff to the Chief Data Officer and led cloud efforts to host autonomous research in the Autonomy Hub. I thrived there, contributing to high-stakes innovation until the shifting landscape of aviation led to layoffs during the fourth round of cuts.",
       ],
     },
     {
       id: "today",
       title: "Today",
       paragraphs: [
-        "The timing, in its own way, was fortunate. My health fully recovered. The layoff didn't end the story — it turned the page back toward the beginning.",
-        "Today I'm doing two things at once — on purpose. Through tmrw LLC, I consult on IT, technology, and modernization: helping teams fix legacy systems, adopt cloud and automation, and ship product that holds up in production.",
-        "In parallel, I'm running a Self-Funded Search to acquire and operate a small or medium-sized business in Washington — using Attuned Holdings LLC as the legal vehicle. That's the long game I set at my father's dinner table, now backed by enterprise-scale discipline and founder grit.",
-        "Same person. Two tracks. One direction: own and operate — but better and bigger.",
+        "Fortunately, coinciding with the layoff, our health troubles fully resolved. Today, I am back and ready to merge my deep expertise in technology and large-scale operations with my original passion for owning and operating small to medium-sized businesses. I consult on IT, technology, and modernization through tmrw LLC while I conduct a Self-Funded Search to acquire and operate a business in Washington through Attuned Holdings LLC. I bring the discipline of a corporate leader, the grit of a founder, and the heart of a small-business son.",
       ],
     },
   ],
