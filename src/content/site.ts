@@ -5,7 +5,7 @@ export const site = {
     "Personal story of Nathanael Nienaber — from a small-business dinner table to technology leadership, founder lessons, and a return to operator-led ownership.",
   location: "Bellevue, Washington",
   heroHook: "I was raised at a dinner table that doubled as a boardroom.",
-  email: "nnienaber@protonmail.com",
+  email: "nathanaelnienaber@protonmail.com",
   links: {
     linkedin: "https://linkedin.com/in/nnienaber",
     github: "https://github.com/nathanaelnienaber",
@@ -79,7 +79,7 @@ export const doors = [
     cta: "Visit attunedholdings.com",
   },
   {
-    name: "tmrw",
+    name: "tmrw llc",
     href: "https://tmrw.it",
     label: "Consulting",
     description:
